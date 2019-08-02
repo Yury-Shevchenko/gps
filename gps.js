@@ -9,7 +9,7 @@ const updateLocation = (e, options) => {
   }
 }
 
-class TestPlugin {
+class GPSPlugin {
   constructor(options) {
     console.log('TestPlugin initialized with options', options)
     this.enableHighAccuracy = false
@@ -70,4 +70,4 @@ class TestPlugin {
 
 }
 
-window.TestPlugin = TestPlugin
+window.GPSPlugin = GPSPlugin
